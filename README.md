@@ -1,6 +1,18 @@
-# project-work-2021-LeaMikoV
-project-work-2021-LeaMikoV created by GitHub Classroom
+# Climate Observations: Data Analysis and Visualization
+
+This is my project work for the COMPUTE course *Reproducible and Interactive Data Analysis and Modelling using Jupyter Notebooks* 2021.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/teokem/project-work-2021-LeaMikoV/HEAD)
 
-This is my project work for the COMPUTE course *Reproducible and Interactive Data Analysis and Modelling using Jupyter Notebooks* 2021.
+# Climate Observations: Data Analysis and Visualization
+
+## Abstract
+
+
+## How to run the notebook:
+There exist two possibilities to run this notebook:
+1) By clicking on the binder link above.
+2) Download this github repository and unzip. Then install and activate the ProjectLea environment described by the file environment.yml. Then the notebook ProjectLea.ipynb can be run using jupyter notebook.
+
+The required packages can be found in the environment.yml file. The following packages are used:
+
