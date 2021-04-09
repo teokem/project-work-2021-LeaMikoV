@@ -9,7 +9,11 @@ The jupyter notebook can be run in the following binder:
 
 ## Abstract
 
-How to run the notebook:
+
+## How to run the notebook:
+There exist two possibilities to run this notebook:
+1) By clicking on the binder link above.
+2) By downloading this repository. Then
 
 The required packages can be found in the environment.yml file. The following packages are used:
 
