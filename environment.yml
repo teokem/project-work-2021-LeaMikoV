@@ -20,3 +20,4 @@ dependencies:
   - simplegeneric
   - cython
   - geopandas
+  - scikit-learn
