@@ -12,7 +12,7 @@ This is my project work for the COMPUTE course *Reproducible and Interactive Dat
 ## How to run the notebook:
 There exist two possibilities to run this notebook:
 1) By clicking on the binder link above.
-2) Download this github repository and unzip. Then install and activate the ProjectLea environment described by the file environment.yml. Then the notebook ProjectLea.ipynb can be run using jubyper notebook.
+2) Download this github repository and unzip. Then install and activate the ProjectLea environment described by the file environment.yml. Then the notebook ProjectLea.ipynb can be run using jupyter notebook.
 
 The required packages can be found in the environment.yml file. The following packages are used:
 
