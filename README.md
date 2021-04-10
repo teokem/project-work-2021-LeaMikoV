@@ -1,13 +1,13 @@
-# Climate Observations: Data Analysis and Visualization
-
-This is my project work for the COMPUTE course *Reproducible and Interactive Data Analysis and Modelling using Jupyter Notebooks* 2021.
-
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/teokem/project-work-2021-LeaMikoV/HEAD)
 
 # Climate Observations: Data Analysis and Visualization
 
-## Abstract
+This is my project work for the COMPUTE course *Reproducible and Interactive Data Analysis and Modelling using Jupyter Notebooks* 2021.  
 
+# Climate Observations: Data Analysis and Visualization
+
+## Abstract
+In this project climate data for a city in Bavaria, Germany, is read in, the data is cleaned and made more readable and in the following analyzed using different statistical methods. Since my research does not include working with data sets, I wanted to use this project to learn more about data science, i.e. working with data sets and presenting them. Moreover, I did some literature search on how to present climate data and apply some statistical methods on it. The project work consisted of the following steps: searching for freely available climate data sets, reading in the data and getting a first overview, followed by some literature search on how to work with and interpret climate data. more about the project here
 
 ## How to run the notebook:
 There exist two possibilities to run this notebook:
