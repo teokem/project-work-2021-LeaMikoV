@@ -11,13 +11,13 @@ This is my project work for the COMPUTE course *Reproducible and Interactive Dat
 
 ## How to run the notebook:
 There exist two possibilities to run this notebook:
-1) By clicking on the binder link above. Next, click on `ProjectLea.ipynb` and run all cells by choosing . 
+1) By clicking on the binder link above. Next, click on `ProjectLea.ipynb` and run all cells by choosing `Cell -> Run all`. 
 2) Download this github repository and unzip. Then install and activate the ProjectLea environment described by the file environment.yml.  
    ```
    conda env create -f environment.yml   
    conda activate ProjectLea  
    ```  
-   Then the notebook ProjectLea.ipynb can be run using jupyter notebook.  
+   Then the notebook `ProjectLea.ipynb` can be run using jupyter notebook and choosing `Cell -> Run all`.  
 Note: Some plots are bokeh plots or have widgets such that the user can choose parameters.
 
 ## Required packages:
