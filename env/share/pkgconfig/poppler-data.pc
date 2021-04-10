@@ -1,0 +1,8 @@
+poppler_datadir=/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/share/poppler
+
+Name: poppler-data
+Description: Encoding files for use with poppler
+Version: 0.4.10
+
+Cflags: -DPOPPLER_DATADIR=/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/share/poppler
+

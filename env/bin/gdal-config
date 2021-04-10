@@ -1,0 +1,74 @@
+#!/bin/sh
+CONFIG_LIBS="-L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lgdal"
+CONFIG_DEP_LIBS="-lcrypto -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -ltiledb  -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lpoppler -ljson-c -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lfreexl -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lgeos_c -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lwebp -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lkmlbase -lkmldom -lkmlengine -lkmlxsd -lkmlregionator -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lexpat -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lxerces-c -lpthread -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lopenjp2 -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lnetcdf -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lhdf5  -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lmfhdf -ldf -lgif -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -ljpeg -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lgeotiff -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lpng -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lcfitsio -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lpq -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lzstd -llzma -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lsqlite3 -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lproj  -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lsqlite3 -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -ltiff -lz -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lpthread -ldl  -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lspatialite -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib64 -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -ldap -ldapserver -ldapclient -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lcurl -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lxml2 -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lz -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -llzma -lpthread -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -liconv -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -licui18n -licuuc -licudata -lm -lpthread   -lpcre   -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lcurl          -liconv  -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lxml2      -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lkea  -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lhdf5_cpp -lhdf5 "
+CONFIG_PREFIX="/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env"
+CONFIG_CFLAGS="-I/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/include"
+CONFIG_DATA="/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/share/gdal"
+CONFIG_VERSION="3.2.2"
+CONFIG_OGR_ENABLED=yes
+CONFIG_GNM_ENABLED=yes
+CONFIG_FORMATS="derived gtiff hfa mem vrt  aaigrid adrg aigrid airsar arg blx bmp bsb cals ceos ceos2 coasp cosar ctg dimap dted e00grid elas envisat ers esric fit gff gsg gxf hf2 idrisi ignfheightasciigrid ilwis ingr iris iso8211 jaxapalsar jdem kmlsuperoverlay l1b leveller map mrf msgn ngsgeoid nitf northwood pds prf r raw rmf rs2 safe saga sdts sentinel2 sgi sigdem srtmhgt terragen tga til tsx usgsdem xpm xyz zmap rik ozi eeda plmosaic rda wcs wms wmts daas ogcapi rasterlite mbtiles grib pdf tiledb webp dods openjpeg netcdf kea hdf5 hdf4 gif jpeg png pcraster fits  pcidsk postgisraster"
+usage()
+{
+	cat <<EOF
+Usage: gdal-config [OPTIONS]
+Options:
+	[--prefix[=DIR]]
+	[--libs]
+	[--dep-libs]
+	[--cflags]
+	[--datadir]
+	[--version]
+	[--ogr-enabled]
+	[--gnm-enabled]
+	[--formats]
+EOF
+	exit $1
+}
+
+if test $# -eq 0; then
+	usage 1 1>&2
+fi
+
+case $1 in
+  --libs)
+    echo $CONFIG_LIBS
+    ;;
+
+  --dep-libs)
+    echo $CONFIG_DEP_LIBS
+    ;;
+
+  --cflags)
+    echo $CONFIG_CFLAGS
+    ;;
+
+  --datadir)
+    echo $CONFIG_DATA
+    ;;
+
+  --prefix)
+    echo $CONFIG_PREFIX
+    ;;
+
+  --version)
+    echo $CONFIG_VERSION
+    ;;
+
+  --ogr-enabled)
+    echo yes
+    ;;
+
+  --gnm-enabled)
+    echo $CONFIG_GNM_ENABLED
+    ;;
+
+  --formats)
+    echo $CONFIG_FORMATS
+    ;;
+
+  *)
+    usage 1 1>&2
+    ;;
+
+esac

@@ -1,4 +1,4 @@
-name: LUcompute
+name: ProjectLea
 channels:
   - conda-forge
 dependencies:
@@ -8,16 +8,16 @@ dependencies:
   - ipywidgets
   - notebook
   - numpy
-  - openpyxl
   - pandas
   - pip
-  - scipy
-  - seaborn
-  - pip
-  - xlrd
-  - lxml
-  - cryptography
-  - simplegeneric
-  - cython
   - geopandas
   - scikit-learn
+
+    #  - openpyxl
+    #  - scipy 
+    #  - seaborn
+    #  - xlrd
+    #  - lxml
+    #  - simplegeneric
+    #  - cython
+

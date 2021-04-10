@@ -1,0 +1,9 @@
+Name: libecpg_compat
+Description: PostgreSQL libecpg_compat library
+Url: https://www.postgresql.org/
+Version: 13.1
+Requires: 
+Requires.private: libecpg libpgtypes
+Cflags: -I/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/include
+Libs: -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lecpg_compat
+Libs.private: -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lm

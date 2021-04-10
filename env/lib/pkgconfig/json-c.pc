@@ -1,0 +1,12 @@
+prefix=/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env
+exec_prefix=/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env
+libdir=/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib
+includedir=/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/include
+
+Name: json-c
+Description: A JSON implementation in C
+Version: 0.15
+Requires:
+Libs.private: 
+Libs: -L${libdir} -ljson-c
+Cflags: -I${includedir} -I${includedir}/json-c

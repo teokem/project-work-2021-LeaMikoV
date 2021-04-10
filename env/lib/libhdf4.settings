@@ -1,0 +1,38 @@
+	    SUMMARY OF THE HDF4 CONFIGURATION
+	    =================================
+
+General Information:
+-------------------
+		   HDF4 Version: 4.2.13
+		  Configured on: Wed Dec  2 22:42:25 UTC 2020
+		  Configured by: runner@Mac-1606948385690.local
+		 Configure mode: production
+		    Host system: x86_64-apple-darwin13.4.0
+              Uname information: Darwin Mac-1606948385690.local 19.6.0 Darwin Kernel Version 19.6.0: Thu Oct 29 22:56:45 PDT 2020; root:xnu-6153.141.2.2~1/RELEASE_X86_64 x86_64
+		      Libraries: 
+	     Installation point: /Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env
+
+Compiling Options:
+------------------
+               Compilation Mode: production
+                     C compiler: /Users/runner/miniforge3/conda-bld/hdf4_1606948622991/_build_env/bin/x86_64-apple-darwin13.4.0-clang
+                         CFLAGS:  -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/include -fdebug-prefix-map=/Users/runner/miniforge3/conda-bld/hdf4_1606948622991/work=/usr/local/src/conda/hdf4-4.2.13 -fdebug-prefix-map=/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env=/usr/local/src/conda-prefix -O
+                       CPPFLAGS: -Wl,-rpath,/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -I/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/include -DBIG_LONGS -DSWAP 
+               Shared Libraries: yes
+               Static Libraries: yes
+  Statically Linked Executables: no
+                        LDFLAGS: -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -Wl,-rpath,/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -headerpad_max_install_names
+ 	 	Extra libraries: -ljpeg -lz 
+ 		       Archiver: /Users/runner/miniforge3/conda-bld/hdf4_1606948622991/_build_env/bin/x86_64-apple-darwin13.4.0-ar
+ 		 	 Ranlib: /Users/runner/miniforge3/conda-bld/hdf4_1606948622991/_build_env/bin/x86_64-apple-darwin13.4.0-ranlib
+
+Languages:
+----------
+                        Fortran: no
+
+                           Java: no
+
+Features:
+---------
+               SZIP compression: disabled
+   Support for netCDF API 2.3.2: no
