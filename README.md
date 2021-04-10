@@ -11,13 +11,13 @@ In this project climate data for a city in Bavaria, Germany, is read in, the dat
 
 ## How to run the notebook:
 There exist two possibilities to run this notebook:
-1) By clicking on the binder link above. Next, click on `ProjectLea.ipynb` and run all cells by choosing `Cell -> Run all`. 
+1) By clicking on the binder link above. Next, click on `ProjectLea.ipynb` and run all cells by choosing `Cell -> Run All`. 
 2) Download this github repository and unzip. Then install and activate the ProjectLea environment described by the file environment.yml.  
    ```
    conda env create -f environment.yml   
    conda activate ProjectLea  
    ```  
-   Then the notebook `ProjectLea.ipynb` can be run using jupyter notebook and choosing `Cell -> Run all`.  
+   Then the notebook `ProjectLea.ipynb` can be run using jupyter notebook and choosing `Cell -> Run All`.  
 Note: Some plots are bokeh plots or have widgets such that the user can choose parameters.
 
 ## Required packages:
