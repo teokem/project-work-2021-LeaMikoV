@@ -11,7 +11,7 @@ This is my project work for the COMPUTE course *Reproducible and Interactive Dat
 
 ## How to run the notebook:
 There exist two possibilities to run this notebook:
-1) By clicking on the binder link above.
+1) By clicking on the binder link above. Next, click on 'ProjectLea.ipynb' and run all cells by choosing . Some plots have widgets such that the user can choose parameters.
 2) Download this github repository and unzip. Then install and activate the ProjectLea environment described by the file environment.yml. Then the notebook ProjectLea.ipynb can be run using jupyter notebook.
 
 ## Required packages:
