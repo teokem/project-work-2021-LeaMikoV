@@ -1,9 +1,0 @@
-Name: libecpg
-Description: PostgreSQL libecpg library
-Url: https://www.postgresql.org/
-Version: 13.1
-Requires: 
-Requires.private: libpq libpgtypes
-Cflags: -I/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/include
-Libs: -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lecpg
-Libs.private: -L/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env/lib -lm

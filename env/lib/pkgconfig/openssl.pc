@@ -1,9 +1,0 @@
-prefix=/Users/leaversbach/Documents/git/project-work-2021-LeaMikoV/env
-exec_prefix=${prefix}
-libdir=${exec_prefix}/lib
-includedir=${prefix}/include
-
-Name: OpenSSL
-Description: Secure Sockets Layer and cryptography libraries and tools
-Version: 1.1.1k
-Requires: libssl libcrypto
