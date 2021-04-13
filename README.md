@@ -22,7 +22,7 @@ There exist two possibilities to run this notebook:
 Note: Some plots are bokeh plots or have widgets and the user is supposed to choose parameters.
 
 ## Required packages:
-The required packages can be found in the environment.yml file. The following packages are used:
+The required packages can be found in the environment.yml file. The following packages are used (the versions were the ones on my stationary computer when creating the project):
   - `python=3.9.2`: Everything is written in Python
   - `notebook=6.3.0`: The project is written in a jupyter notebook
   - `matplotlib=3.4.1`: Needed for the figures
