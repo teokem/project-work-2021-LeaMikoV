@@ -13,13 +13,13 @@ In the first section of this notebook a bokeh map is created with some basic fac
 ## How to run the notebook:
 There exist two possibilities to run this notebook:
 1) By clicking on the binder link above. Next, click on `ProjectLea.ipynb` and run all cells by choosing `Cell -> Run All`. 
-2) Download this github repository and unzip. Then install and activate the ProjectLea environment described by the file environment.yml.  
+2) Download this github repository and unzip. Then install and activate the ProjectLea environment described by the file `environment.yml`. This file activates all necessary packages to run the notebook. It can be activated using the following commands in the terminal:  
    ```
    conda env create -f environment.yml   
    conda activate ProjectLea  
    ```  
    Then the notebook `ProjectLea.ipynb` can be run using jupyter notebook and choosing `Cell -> Run All`.  
-Note: Some plots are bokeh plots or have widgets such that the user can choose parameters.
+Note: Some plots are bokeh plots or have widgets and the user is supposed to choose parameters.
 
 ## Required packages:
 The required packages can be found in the environment.yml file. The following packages are used:
