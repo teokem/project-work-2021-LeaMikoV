@@ -11,7 +11,7 @@ The project work included searching for freely available climate data sets, read
 In the first section of this notebook a bokeh map is created with some basic facts about the station the climate data comes from. In the next section, the data is processed, i.e. read in, cleaned, reorganized and stored to an excel file. In the third section, the user can get a visual overview over the data by using two interactive plots where the available observations can be visualized using different options like mean over all years, yearly data and more. In the following section, some statistical methods are applied to the data sets in order to interpret them. Finally, some concluding remarks are made in the last section.  
 
 ## Data Set
-The used data set was taken from the freely available data set of the German Meteorological Service (Deutscher Wetterdienst, DWD).
+The used data set was taken from the freely available data sets provided by the German Meteorological Service (Deutscher Wetterdienst, DWD).
 
 ## How to run the notebook:
 There exist two possibilities to run this notebook:
