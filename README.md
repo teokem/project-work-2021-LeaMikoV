@@ -36,4 +36,5 @@ The required packages can be found in the environment.yml file. The following pa
   - `pip=21.0.1`: In case the user wants to install more packages
   - `geopandas=0.9.0`: Needed to create map plot
   - `scikit-learn=0.24.1`: Needed to do some statistis
+  - `openpyxl=3.0.7`: Needed to save data to excel file
 
