@@ -15,7 +15,7 @@ The data set was taken from the freely available data sets provided by the Germa
 
 ## How to run the notebook:
 There exist two possibilities to run this notebook:
-1) By clicking on the binder link above. Next, click on `ProjectLea.ipynb` and run all cells by choosing `Cell -> Run All`. 
+1) Click on the binder link above. Next, click on `ProjectLea.ipynb` and run all cells by choosing `Cell -> Run All`. 
 2) Download this github repository and unzip. Then install and activate the ProjectLea environment described by the file `environment.yml`. This file activates all necessary packages to run the notebook. It can be activated using the following commands in the terminal:  
    ```
    conda env create -f environment.yml   
