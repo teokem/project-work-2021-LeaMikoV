@@ -7,4 +7,4 @@ I made the following changes in the jupyter notebook (as requested by the peer r
 3) In the markdown cell before code cell 17 I added that the scikit-learn is loaded.
 
 As mentioned, I prefer to load the data from the files and not from a link in order to be sure that the notebook can be run even if the links won't exist any longer. 
-I also do not have a better idea how to avoid cells with a lot of code to produce interactive plots.
+I also do not have a better idea how to avoid cells with a lot of code to produce interactive plots. A possibility might be to have a another file with a class/function for interactive plots, but nevertheless these would require a lot on input, making the code cell quite long.
