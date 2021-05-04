@@ -1,6 +1,7 @@
 Thank you for the valuable input from the peer review.
 
-I made the following changes in the jupyter notebook:
+I made the following changes in the jupyter notebook (as requested by the peer reviewers):
+
 1) I added the abstract from the readme to the notebook.
 2) In cell 10, I changed the standard format to save the data to a .csv file. In case the user prefers an excel file, the corresponding code can be uncommented.
-3) In the markdown cell before code cell 17 I added that the scikit-learn will be loaded.
+3) In the markdown cell before code cell 17 I added that the scikit-learn is loaded.
