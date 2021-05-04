@@ -1,4 +1,5 @@
 [![DOI](https://zenodo.org/badge/351438068.svg)](https://zenodo.org/badge/latestdoi/351438068)  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4736645.svg)](https://doi.org/10.5281/zenodo.4736645)  
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/teokem/project-work-2021-LeaMikoV/HEAD)
 
 This is the project work for the COMPUTE course *Reproducible and Interactive Data Analysis and Modelling using Jupyter Notebooks* 2021.  
